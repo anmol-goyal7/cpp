@@ -1,4 +1,7 @@
 #include <iostream>
+#include <iomanip>
+using namespace std;
+
 int main() 
 {
     int a;
@@ -7,9 +10,12 @@ int main()
     float d;
     double e;
 
-    std::cin >> a >> b >> c >> d >> e;
+    cin >> a >> b >> c >> d >> e;
 
-    std::cout << a << '\n' << b << '\n' << c << '\n' << d << '\n' << e << '\n';
-
+    cout << a << '\n';
+    cout << b << '\n';
+    cout << c << '\n';
+    cout << fixed << setprecision(3) << d << '\n';
+    cout << fixed << setprecision(3) << e << '\n';
     return 0;
 }
