@@ -28,9 +28,6 @@
             if (m_LogLevel >= LogLevelError)
                 std::cout << "[WARNING]: " << message << std::endl;
         }
-
-
-
     };
 
     int main()
