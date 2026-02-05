@@ -7,5 +7,4 @@ This repository tracks my C++ learning with a focus on:
 
 Resources:
 - learncpp.com
-- Ray Tracing in One Weekend (upcoming)
-
+- The Cherno (youtube)
