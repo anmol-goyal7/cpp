@@ -3,6 +3,7 @@
 *.out
 *.exe
 *.gch
+practice/loops/loop[0-9]
 
 # Build directories
 build/

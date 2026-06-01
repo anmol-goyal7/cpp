@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+
     class Log 
     {
     public:
@@ -12,7 +13,7 @@
     public:
         void Setlevel(Level level)
         {
-            m_LogLevel =LevelInfo ;
+            m_LogLevel = level;
         }
 
         void Warn(const char* message)
@@ -28,7 +29,7 @@
         void Error(const char* message)
         {
             if (m_LogLevel >=LevelError)
-                std::cout << "[WARNING]: " << message << std::endl;
+                std::cout << "[ERROR]: " << message << std::endl;
         }
     };
 
@@ -40,4 +41,3 @@
         log.Warn("Hello!");
         std::cin.get();
     }
-

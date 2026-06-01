@@ -26,6 +26,7 @@ A structured collection of C++ programs covering core language concepts — from
 ├── 09-constructors-and-destructors/  # Object lifecycle — construction and destruction
 ├── 10-vectors/                       # std::vector and custom Vec3 class
 └── practice/
+    ├── loops/                        # Extra loop pattern practice
     └── hackerrank/                   # HackerRank problem solutions
 ```
 

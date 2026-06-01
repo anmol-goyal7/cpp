@@ -1,5 +1,5 @@
-#include "add.h"
-#include<iostream>
+#include "namespaced_function.h"
+#include <iostream>
 
 int main()
 {
